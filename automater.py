@@ -226,9 +226,9 @@ users = {
     # "user16": user16,
     # "user17": user17,
     # "user18": user18,
-    "user7": user7,
-    "user22": user22,
-    "user23": user23,
+   # "user7": user7,
+    #"user22": user22,
+    #"user23": user23,
     # "user15": user15,
     # "user20": user20
     # 'user4': user4,
@@ -243,8 +243,8 @@ users = {
 for key, value in users.items():
     var = main(value["username"], value["password"],value['name'], actvity_id,subject)
     var.login()
-    var.open_activity()
-    var.fill_answer()
+    #var.open_activity()
+    #var.fill_answer()
 
 
 
